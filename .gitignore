@@ -1,0 +1,22 @@
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Reportes PDF generados
+reporte_inventario_*.pdf
+
+# IDEs
+.vscode/
+.idea/
+
+# Distribuciones / empaquetado
+dist/
+build/
+*.egg-info/

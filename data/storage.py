@@ -2,10 +2,10 @@
 NOMBRE_TIENDA = "TechStore Chile"
 
 # Usamos una lista para el inventario (permite orden y duplicados de productos)
-inventario = []
+inventario = [] # importante: esta variable es global y se modificará desde otros módulos
 
 # Usamos un set para categorías únicas
-categorias_existentes = set()
+categorias_existentes = set() # importante: esta variable es global y se modificará desde otros módulos
 
 # Usamos una tupla para impuestos (inmutabilidad)
 # 0.19 = IVA, 0.05 = Tasa Proceso
